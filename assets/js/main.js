@@ -1,7 +1,39 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Custom JavaScript modifications
-    // For example, you can change the interval between slides
-    $('.carousel').carousel({
-      interval: 2000 // Change interval to 2 seconds
-    });
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    // nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    items: 1,
+    // responsive:{
+    //   0:{
+    //     items:1
+    //   },
+    //   600:{
+    //     items:2
+    //   },
+    //   1000:{
+    //     items:3
+    //   }
+    // }
   });
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+  })
+});
+
