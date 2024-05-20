@@ -269,3 +269,40 @@ footer{
     font-size: 14px;
 }
 
+
+
+.tab-content table {
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+  }
+  .tab-content table .team-name {
+    width: 150px;
+  }
+  .tab-content table tr td, .tab-content table tr th  {
+    padding: 8px 0 8px 10px;
+    width: 120px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #505050;
+  }
+  .tab-content table tr td:first-child {
+    padding-left: 15px;
+    width: 45px;
+  }
+  .tab-content table tr:hover {
+    background-color: #fbc02d;
+  }
+  .tab-content table tr:first-child {
+    background-color: #000;
+  }
+  .tab-content table tr:first-child td, .tab-content table tr:first-child th {
+    padding: 8px 0 8px 10px;
+    border: none;
+    color: #fbc02d;
+  }
+
+  table.match-table {
+    width: 100%;
+}
+
+
+table.match-table a {text-decoration: none;color: var(--secondary-color);font-weight: 700;}
